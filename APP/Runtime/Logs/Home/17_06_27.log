@@ -1,0 +1,320 @@
+[ 2017-06-27T09:00:57+08:00 ] ::1 /te/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:02:39+08:00 ] ::1 /te/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:03:50+08:00 ] ::1 /te/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:04:11+08:00 ] ::1 /te/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:04:46+08:00 ] ::1 /te/index.php/Home/Index/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:05:02+08:00 ] ::1 /te/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:27+08:00 ] ::1 /te/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:08:27+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:32+08:00 ] ::1 /te/index.php/Home/Index/notice.html?current=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 89 行.
+NOTIC: [8] Use of undefined constant add_notice - assumed 'add_notice' D:\wamp\www\te\APP\Runtime\Cache\Home\5471324b357bbcb373032a4666e80166.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-27T09:08:32+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:33+08:00 ] ::1 /te/index.php/Home/Index/comment.html?current=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\8ab14c48e46d98bac121a0cf4cd246b5.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-27T09:08:33+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:34+08:00 ] ::1 /te/index.php/Home/Index/article.html?current=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 89 行.
+NOTIC: [8] Use of undefined constant add_article - assumed 'add_article' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 104 行.
+NOTIC: [8] Use of undefined constant update_article - assumed 'update_article' D:\wamp\www\te\APP\Runtime\Cache\Home\6c2838e5d768c30a542a7a7fa334a85e.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:08:34+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:08:35+08:00 ] ::1 /te/index.php/Home/Index/index.html?current=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-27T09:08:35+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:53+08:00 ] ::1 /te/index.php/Home/Index/index.html?current=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\a59b5e3d0bfe1e0eebc9ef04a084f7b9.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-06-27T09:08:53+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T09:08:55+08:00 ] ::1 /te/index.php/Home/Index/category.html?current=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 43 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 60 行.
+NOTIC: [8] Use of undefined constant article - assumed 'article' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 63 行.
+NOTIC: [8] Use of undefined constant notice - assumed 'notice' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 64 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 65 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 69 行.
+NOTIC: [8] Use of undefined constant flink - assumed 'flink' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 72 行.
+NOTIC: [8] Use of undefined constant manage_user - assumed 'manage_user' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 81 行.
+NOTIC: [8] Use of undefined constant loginlog - assumed 'loginlog' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 83 行.
+NOTIC: [8] Use of undefined constant setting - assumed 'setting' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 88 行.
+NOTIC: [8] Use of undefined constant readset - assumed 'readset' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 89 行.
+NOTIC: [8] Use of undefined constant update_category - assumed 'update_category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 154 行.
+NOTIC: [8] Use of undefined constant update_category - assumed 'update_category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 161 行.
+NOTIC: [8] Use of undefined constant update_category - assumed 'update_category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 168 行.
+NOTIC: [8] Use of undefined constant update_category - assumed 'update_category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 175 行.
+NOTIC: [8] Use of undefined constant update_category - assumed 'update_category' D:\wamp\www\te\APP\Runtime\Cache\Home\6fbe39bfe025d8d48d613b07ea0bd2a5.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T09:08:55+08:00 ] ::1 /te/index.php/Home/Index/images/baoman/baoman_01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

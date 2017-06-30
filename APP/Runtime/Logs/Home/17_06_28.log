@@ -1,0 +1,9 @@
+[ 2017-06-28T15:38:13+08:00 ] ::1 /te/index.php/Home/Index/index1.html?current=1
+ERR: 非法操作:index1
+
+[ 2017-06-28T15:38:25+08:00 ] ::1 /te/index.php/Home/Index/index1.html?current=1
+ERR: 非法操作:index1
+
+[ 2017-06-28T15:39:21+08:00 ] ::1 /te/index.php/Home/Index/index1.html?current=1
+ERR: 非法操作:index1
+
