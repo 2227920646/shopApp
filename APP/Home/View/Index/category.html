@@ -17,11 +17,11 @@
               <label for="category-fname">父节点</label>
               <select id="category-fname" class="form-control" name="fid">
                 <option value="0" selected>无</option>
-                <option value="1">前端技术</option>
-                <option value="2">后端程序</option>
-                <option value="3">管理系统</option>
-                <option value="4">授人以渔</option>
-                <option value="5">程序人生</option>
+                <option value="音乐">音乐</option>
+                <option value="游戏">游戏</option>
+                <option value="电影">电影</option>
+                <option value="体育">体育</option>
+                <option value="程序">程序</option>
               </select>
               <span class="prompt-text">栏目是有层级关系的，您可以有一个“音乐”分类目录，在这个目录下可以有叫做“流行”和“古典”的子目录。</span> </div>
             <div class="form-group">
@@ -43,7 +43,7 @@
                 <tr>
                   <th><span class="glyphicon glyphicon-paperclip"></span> <span class="visible-lg">ID</span></th>
                   <th><span class="glyphicon glyphicon-file"></span> <span class="visible-lg">名称</span></th>
-                  <th><span class="glyphicon glyphicon-list-alt"></span> <span class="visible-lg">别名</span></th>
+                  <th><span class="glyphicon glyphicon-list-alt"></span> <span class="visible-lg">类型</span></th>
                   <th><span class="glyphicon glyphicon-pushpin"></span> <span class="visible-lg">总数</span></th>
                   <th><span class="glyphicon glyphicon-pencil"></span> <span class="visible-lg">操作</span></th>
                 </tr>
@@ -51,8 +51,8 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>前端技术</td>
-                  <td>web</td>
+                  <td>{{$res[0][mingcheng]}}</td>
+                  <td>{{$res[0][fjd]}}</td>
                   <td>125</td>
                   <td><a href="{:U(update_category)}?current=6">修改</a> <a rel="1">删除</a></td>
                 </tr>

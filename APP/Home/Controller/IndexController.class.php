@@ -29,27 +29,38 @@ class IndexController extends Controller
 
     }
     public function update_category(){
-
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function update_flink(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function update_article(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function setting(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function readset(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function manage_user(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     public function loginout(){
@@ -57,10 +68,14 @@ class IndexController extends Controller
         $this->redirect("login");
     }
     public function loginlog(){
+        $value = cookie('username');
+        $this->assign('username', $value);
          $this->display();
     }
     
     public function comment(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
@@ -71,38 +86,53 @@ class IndexController extends Controller
     }
     
     public function category(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $model=M("lanmu");
         $data=array("mingcheng"=>I("post.name"),"bieming"=>I("post.alias"),"fjd"=>I("post.fid"),"gjz"=>I("post.keywords"),"miaosu"=>I("post.describe"));
         $re=$model->where("mingcheng='%s'",I("post.name"))->select();
+
         if (!$re) {
             $res = $model->add($data);
-        }else{
-            $this->display();
         }
+        $res=$model->select();
+        $this->assign('res', $res);
         $this->display();
     }
     
     public function add_notice(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function flink(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function article(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function notice(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function add_article(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
     
     public function add_flink(){
+        $value = cookie('username');
+        $this->assign('username', $value);
         $this->display();
     }
 }

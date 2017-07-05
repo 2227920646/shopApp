@@ -5,7 +5,7 @@
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>异清轩博客管理系统</title>
+<title>异清轩系统</title>
 <link rel="stylesheet" type="text/css" href="/te/Public/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/te/Public/css/style.css">
 <link rel="stylesheet" type="text/css" href="/te/Public/css/font-awesome.min.css">
