@@ -97,7 +97,7 @@ class IndexController extends Controller
         }
         $res=$model->select();
         $this->assign('res', $res);
-        $this->display();//zaaa
+        $this->display();//zaaadwqf
     }
     
     public function add_notice(){
