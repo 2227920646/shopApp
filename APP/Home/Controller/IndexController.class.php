@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 
-
+//aa
 use Think\Controller;
 class IndexController extends Controller
 {
@@ -94,7 +94,8 @@ class IndexController extends Controller
         if (!$re) {
                 $res = $model->add($data);
             }
-         $res=$model->select();
+            $da=array("id"=>array("NEQ",14));
+         $res=$model->where($da)->select();
         $this->assign('res', $res);
         $this->display();
     }
