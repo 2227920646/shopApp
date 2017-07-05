@@ -91,13 +91,12 @@ class IndexController extends Controller
         $model=M("lanmu");
         $data=array("mingcheng"=>I("post.name"),"bieming"=>I("post.alias"),"fjd"=>I("post.fid"),"gjz"=>I("post.keywords"),"miaosu"=>I("post.describe"));
         $re=$model->where("mingcheng='%s'",I("post.name"))->select();
-
         if (!$re) {
-            $res = $model->add($data);
-        }
-        $res=$model->select();
+                $res = $model->add($data);
+            }
+         $res=$model->select();
         $this->assign('res', $res);
-        $this->display();//zaaadwqfaa
+        $this->display();
     }
     
     public function add_notice(){
